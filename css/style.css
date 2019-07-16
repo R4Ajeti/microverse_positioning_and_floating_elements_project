@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "chomsky";
+    src: url("../fonts/Chomsky.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "goudy";
+    src: url("../fonts/SortsMillGoudy-Regular.ttf") format("truetype");
+}
+
+body {
+    font-family: georgia;
+    font-size: 1.3em;
+    line-height: 1.2;
+    color: hsla(106, 0%, 20%, 1.00);
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+header h1 {
+    font-family: "chomsky";
+    font-size: 1.2em;
+    margin: .2em auto;
+}
+.nav-bar {
+	top: 0;
+    width: 100%;
+    height: 2em;
+    display: flex;
+    position: fixed;
+    background-color: white;
+    padding-bottom: 5px;
+    border-bottom: 1px solid hsla(116, 0%, 89%, 1.00);
+}
+.nav-bar li {
+    display: inline-block;
+    flex: none;
+    margin: .1em .4em;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 0.7em;
+}
+
+.nav-bar li a {
+    color: hsla(106, 0%, 20%, 1.00);
+    font-weight: 900;
+}
+.nav-bar ul {
+	width: 18em;
+    flex: none;  
+}
+
+.icon {
+    width: 1.5em;
+}
+.icon:hover{
+    background-color: #ebebeb;
+}
+.menuIc:hover{
+	background-color: #C0BBBB;
+}
+img {
+    max-width: 100%;
+}
+
+.log-in {
+	font-family: "nyt-franklin,helvetica,arial,sans-serif";
+    background: hsla(206, 28%, 52%, 1.00);
+    margin-left: 6em;
+    margin-top: .5em;
+    margin-right: 1em;
+    border: solid 1px hsla(206, 51%, 38%, 1.00);
+    color: white;
+    width: 6em;
+    height: 2.7em;
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+main {
+    display: flex;
+    margin: 0 auto;
+}
+
+article {
+    margin-top: 5em;
+    margin-right: 2em;
+    margin-left: 28%;
+    width: 30em;
+}
+
+article h1 {
+    font-size: 1.8em;
+    font-style: italic;
+    font-weight: 900;
+    margin-bottom: 1em;
+    letter-spacing: -1px;
+}
+
+h1+figure {
+    width: 150%;
+    margin-top: 2em;
+    margin-bottom: 2.5em;
+    margin-left: -25%;
+}
+
+figcaption {
+    font-size: 0.7em;
+    color: hsla(116, 0%, 40%, 1.00);
+    text-align: left;
+    font-weight: 400;
+    width: 75%;
+}
+
+figcaption span {
+    display: block;
+    color: hsla(116, 0%, 53%, 1.00);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+article footer a {
+    color: hsla(116, 0%, 53%, 1.00);
+    font-size: 12px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.comments {
+    background: hsla(206, 28%, 52%, 1.00);
+    border: solid 1px hsla(206, 51%, 38%, 1.00);
+    color: white;
+    width: 25em;
+    font-size: 0.6em;
+    margin-top: 2em;
+    margin-bottom: 8em;
+    height: 2.7em;
+    border-radius: 3px;
+    font-weight: 700;
+}
+.published{
+    display: flex;
+    list-style: none;
+    
+}
+.published li{
+    flex-direction: row;
+}
