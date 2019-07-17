@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
     font-family: "chomsky";
     src: url("../fonts/Chomsky.otf") format("opentype");
 }
@@ -422,4 +422,333 @@ small ul {
     border-radius: 0%;
     margin: 0;
     padding: 0;
+}*/
+* {
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+}
+
+
+#wrapper-divs {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows:  repeat(3, auto);
+    
+}
+ #nav-div-only{
+    
+    /*background-color: green;*/
+    text-align: center;
+ }
+
+ .nav-bar-divs{
+    width: 30%;
+    display: inline;
+ }
+nav {
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+ nav img {
+    width: 6%;
+ }
+
+ nav a {
+    color: black;
+    font-size: 18px;
+ }
+
+ a:hover {
+    text-decoration: underline;
+ }
+
+.navbar-div-content{
+    padding-right: 20px;
+    float: left;
+
+}
+
+#nav-bar-icons{
+    float: left;
+    padding: 10px;
+    /*background-color: white;*/
+}
+
+#nav-bar-title {
+    position: relative;
+    right: 25px;
+    top: 10px;
+    font-size: 23px;
+    /*background-color: white;*/
+    padding: 10px;
+}
+
+#nav-bar-buttons{
+    float: right;
+}
+
+nav div button {
+    float: right;
+    padding: 10px;
+    border: 1px solid #326891;
+    background-color: #6288a5;
+    border-radius: 5px;
+}
+
+#main-picture-title {
+    text-align: center;
+    font-size: 2em;
+
+}
+
+#below-nav-pic{
+   text-align: center;
+   /*background-color: red;*/
+}
+
+#main-pic-div{
+  width: 75%;
+  /*background-color: blue;*/
+  display: inline-block;
+
+}
+
+#main-pic-figcaption{
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+   /* background-color: green;*/
+}
+
+#main-pic{
+    width: 100%;
+}
+
+ #footer-div-only {
+    
+    /*background-color: yellow;*/
+
+ }
+
+ #main-div-only {
+   text-align: center;
+   display: grid;
+   grid-column-gap: 50px;
+   grid-template-columns: 1fr 2fr 1fr;
+   grid-template-rows: repeat(6, auto);
+    
+ }
+
+ #below-nav-pic {
+   grid-column: 1 / -1;
+   /*background-color: yellow;*/
+
+ }
+
+ #social-media-list{
+      list-style: none;
+      float: right;
+      position: relative;
+      bottom: 20px;
+      /*width: 40%;*/
+ }
+
+ .css-60hakz{
+    color: #999;
+    display: inline;
+    margin-right: 16px;
+    padding: 10px 0;
+    width: 100%;
+
+ }
+
+ #first-layer-aside-left {
+
+  /* background-color: green;*/
+ }
+
+ #first-layer-middle-div{
+   margin-top: 20px;
+    /*background-color: red;*/
+ }
+
+ #passage-one{
+  font-size: 1.5em;
+  margin-top: 100px;
+ }
+
+ #first-layer-aside-right{
+   
+   /*background-color: brown;*/
+ }
+
+ #second-layer-middle-div {
+  width: 80%;
+ /* height: auto;*/ 
+  grid-column: 1 / -1;
+  /*background-color: pink;*/
+  grid-row-gap: 200px;
+  grid-column-gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, auto);
+  /*position: relative;*/
+  /*left: 110px;*/
+  text-align: left;
+  background: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-720.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  margin: 0 auto;
+  background-attachment: scroll;
+ }
+
+ #theory-of-inflatioin{
+  grid-column: 1 / -1;
+  padding: 0px;
+ }
+
+#by {
+  grid-column: 1 / -1;
+  position: relative;
+  bottom: 180px;
+}
+
+ #second-layer-aside-left{
+    /*background-color: orange;*/
+ }
+
+  #third-layer-middle-div{
+    background-color: pink;
+    text-align: left;
+ }
+
+ #third-layer-middle-div a {
+  color: blue;
+  text-decoration: underline;
+ }
+
+ #third-layer-middle-div a:hover {
+   text-decoration: none;
+ }
+
+ #second-layer-aside-right{
+    /*background-color: skyblue;*/
+ }
+
+ #forth-layer-middle-div{
+    grid-column: 1 / 3;
+    background-color: skyblue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 29px auto auto 50px auto auto;
+    position: relative;
+    left: 70px;
+    width: 80%;
+ }
+
+ #forth-layer-blog-one{
+  grid-column: 1 / -1;
+  background-color: green;
+
+ }
+
+ #forth-layer-blog-eight{
+  grid-column: 1 / -1;
+  background-color: red;
+ }
+
+ #third-layer-aside-right{
+   background-color: yellow;
+   position: relative;
+   right: 100px;
+ }
+
+ #fifth-layer-middle-div{
+    grid-column: 1 / -1;
+    background-color: green;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, auto);
+    width: 80%;
+    position: relative;
+    left: 80px;
+ }
+
+ #fifth-layer-middle-blog-one {
+  grid-column: 1 / -1;
+ }
+
+ .iframe-video{
+  display: inline-block;
+ }
+
+#third-layer-button{
+  display: inline-block;
+  width: 40%;
+}
+
+#third-layer-button button {
+  padding: 10px;
+  background-color: rgb(98, 136, 165);
+  color: white;
+  display: block;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(50, 104, 145);
+  border-image: initial;
+  border-radius: 3px;
+  padding: 5px 0px;
+  transition: background-color 0.6s ease 0s;
+}
+
+#third-layer-icons {
+  display: inline-block;
+  width: 30%;
+  float: right;
+}
+
+ footer {
+  background-color: brown;
+  padding: 10px;
+ }
+
+ .css-y8aj3r {
+    padding: 0;
+    list-style: none;
+    float: right
+}
+
+.css-ar1l6a {
+    color: #999;
+    display: inline;
+    margin-right: 16px;
+    padding: 10px 0;
+    width: 100%;
+
+}
+
+.bi-layer{
+  background-color: rgb(255, 255, 255);
+  border-top: 1px solid rgb(0, 0, 0);
+}
+
+.css-fx3mi4 {
+  border-top: 1px solid rgb(226, 226, 226);
+  list-style: none;
+}
+.css-18cmw3s {
+    border-bottom: 1px solid rgb(226, 226, 226);
+    padding: 15px 0px;
 }
