@@ -90,8 +90,10 @@ nav div button:hover {
 #main-picture-title {
   text-align: left;
   font-size: 2em;
-  width: 30%;
+  width: 40%;
   display: inline-block;
+  position: relative;
+  left: 100px;
 }
 
 #below-nav-pic{
@@ -172,27 +174,22 @@ nav div button:hover {
   max-width: 100%;
   grid-column: 1 / -1;
   text-align: center;
-  background-color: red;
  }
 
  #second-layer-middle-div-background-holder {
   display: inline-block;
   max-width: 1000px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: green;
   font-size: 0.7em;
  }
 
- #second-layer-middle-div-content-holder {
+#second-layer-middle-div-content-holder {
   display: grid;
-  grid-row-gap: 200px;
-  grid-column-gap: 10px;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, auto);
   text-align: left;
- }
+}
 
  #theory-of-inflatioin{
   grid-column: 1 / -1;
@@ -201,8 +198,6 @@ nav div button:hover {
 
 #by {
   grid-column: 1 / -1;
-  position: relative;
-  bottom: 180px;
 }
 
 #third-layer-middle-div{
@@ -231,12 +226,10 @@ nav div button:hover {
 
 #forth-layer-blog-extra {
   grid-column: 1 / -1;
-  background-color: brown;
   padding: 0px;
  }
 
 #editor-pics {
-  background-color: yellow;
   margin: 0px;
 }
 
@@ -421,4 +414,8 @@ footer {
 .date {
   font-size: 0.5em;
   font-weight: lighter;
+}
+
+.mgs {
+  width: 100%;
 }
