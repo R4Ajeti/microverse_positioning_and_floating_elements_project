@@ -1,193 +1,197 @@
 * {
-    padding: 0px;
-    text-decoration: none;
-    color: black;
+  padding: 0px;
+  text-decoration: none;
+  color: black;
 }
 
 
 #wrapper-divs {
-    display: grid;
-    height: 100%;
-    grid-template-columns: 1fr;
-    grid-template-rows:  repeat(3, auto);
-    
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
 }
- #nav-div-only{
-    
-    /*background-color: green;*/
-    text-align: center;
- }
+
+#nav-div-only{  
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+  border-bottom: 1px solid rgb(226, 226, 226); 
+}
+
+#nav-div-content-holder {
+  max-width: 100%;
+  display: inline-block;
+}
+
+#first-logo {
+  width: 15%;
+  position: relative;
+  bottom: 15px;
+}
 
  .nav-bar-divs{
     width: 30%;
     display: inline;
  }
-nav {
-    padding: 10px;
-    border-bottom: 1px solid black;
-}
-
-nav svg{
-  width: 200pt;
-  height: 24pt;
-}
 
  nav img {
-    width: 6%;
+  width: 6%;
  }
 
  nav a {
-    color: black;
-    font-size: 18px;
+  color: black;
+  font-size: 18px;
  }
 
- a:hover {
-    text-decoration: underline;
- }
+a:hover {
+  text-decoration: underline;
+}
 
 .navbar-div-content{
-    padding-right: 20px;
-    float: left;
-
+  padding-right: 20px;
+  float: left;
 }
 
 #nav-bar-icons{
-    float: left;
-    padding: 10px;
-    /*background-color: white;*/
+  float: left;
+  padding: 10px;
 }
 
 #nav-bar-title {
-    position: relative;
-    right: 25px;
-    top: 10px;
-    font-size: 23px;
-    /*background-color: white;*/
-    padding: 10px;
+  position: relative;
+  right: 25px;
+  top: 10px;
+  font-size: 23px;
+  padding: 10px;
 }
 
 #nav-bar-buttons{
-    float: right;
+  float: right;
 }
 
 nav div button {
-    float: right;
-    padding: 10px;
-    border: 1px solid #326891;
-    background-color: #6288a5;
-    border-radius: 5px;
+  float: right;
+  padding: 10px;
+  border: 1px solid #326891;
+  background-color: #6288a5;
+  border-radius: 5px;
 }
+
+nav div button:hover {
+  background-color: #0870c2;
+}
+
 .subButton{
-    color: white;
-    margin-left: 10px;
+  color: white;
+  margin-left: 10px;S
 }
 
 #main-picture-title {
-    text-align: center;
-    font-size: 2em;
-
+  text-align: left;
+  font-size: 2em;
+  width: 30%;
+  display: inline-block;
 }
 
 #below-nav-pic{
-   text-align: center;
-   /*background-color: red;*/
+ text-align: center;
 }
 
 #main-pic-div{
   width: 75%;
-  /*background-color: blue;*/
   display: inline-block;
-
 }
 
 #main-pic-figcaption{
-    text-align: left;
-    margin: 0px;
-    padding: 0px;
-   /* background-color: green;*/
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
 }
 
 #main-pic{
-    width: 100%;
+  width: 100%;
 }
 
- #footer-div-only {
-    
-    /*background-color: yellow;*/
+#main-div-only {
+ text-align: center;
+ display: grid;
+ grid-column-gap: 50px;
+ grid-template-columns: 1fr 2fr 1fr;
+ grid-template-rows: repeat(6, auto);  
+}
 
- }
+#below-nav-pic {
+  grid-column: 1 / -1;
+}
 
- #main-div-only {
-   text-align: center;
-   display: grid;
-   grid-column-gap: 50px;
-   grid-template-columns: 1fr 2fr 1fr;
-   grid-template-rows: repeat(6, auto);
-    
- }
+#social-media-list{
+  list-style: none;
+  float: right;
+  position: relative;
+  bottom: 10px; 
+}
 
- #below-nav-pic {
-   grid-column: 1 / -1;
-   /*background-color: yellow;*/
+.css-60hakz{
+  color: #999;
+  display: inline;
+  margin-right: 16px;
+  padding: 5px;
+  width: 100%;
+  background-color: #cec9c9;
+  border: 1px solid #cec9c9;
+  border-radius: 50%;
 
- }
+}
 
- #social-media-list{
-      list-style: none;
-      float: right;
-      position: relative;
-      bottom: 20px;
-      /*width: 40%;*/
- }
+.css-60hakz:hover {
+  background-color: #f3f0f0;
+}
 
- .css-60hakz{
-    color: #999;
-    display: inline;
-    margin-right: 16px;
-    padding: 10px 0;
-    width: 100%;
+#special-icon{
+  border: 0px;
+  background-color: white;
+}
 
- }
+#first-layer-icons-date {
+  display: inline-block;
+  float: right;
+}
 
- #first-layer-aside-left {
+#first-layer-middle-div{
+  margin-top: 20px;
+  text-align: left;
+}
 
-  /* background-color: green;*/
- }
-
- #first-layer-middle-div{
-   margin-top: 20px;
-    /*background-color: red;*/
- }
-
- #passage-one{
+#passage-one{
   font-size: 1.5em;
   margin-top: 100px;
- }
-
- #first-layer-aside-right{
-   
-   /*background-color: brown;*/
- }
+}
 
  #second-layer-middle-div {
-  width: 80%;
- /* height: auto;*/ 
+  max-width: 100%;
   grid-column: 1 / -1;
-  /*background-color: pink;*/
+  text-align: center;
+  background-color: red;
+ }
+
+ #second-layer-middle-div-background-holder {
+  display: inline-block;
+  max-width: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: green;
+  font-size: 0.7em;
+ }
+
+ #second-layer-middle-div-content-holder {
+  display: grid;
   grid-row-gap: 200px;
   grid-column-gap: 10px;
-  display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, auto);
-  /*position: relative;*/
-  /*left: 110px;*/
   text-align: left;
-  background: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-720.png");
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat; /* Do not repeat the image */
-  margin: 0 auto;
-  background-attachment: scroll;
  }
 
  #theory-of-inflatioin{
@@ -201,17 +205,11 @@ nav div button {
   bottom: 180px;
 }
 
- #second-layer-aside-left{
-    /*background-color: orange;*/
- }
-
-  #third-layer-middle-div{
-    background-color: pink;
-    text-align: left;
- }
+#third-layer-middle-div{
+  text-align: left;
+}
 
  #third-layer-middle-div a {
-  color: blue;
   text-decoration: underline;
  }
 
@@ -219,56 +217,61 @@ nav div button {
    text-decoration: none;
  }
 
- #second-layer-aside-right{
-    /*background-color: skyblue;*/
- }
+#forth-layer-middle-div{
+  grid-column: 1 / 3;
+  grid-gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 29px auto auto 1px 20px auto auto;
+  position: relative;
+  left: 70px;
+  width: 80%;
+  text-align: left;
+}
 
- #forth-layer-middle-div{
-    grid-column: 1 / 3;
-    background-color: skyblue;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 29px auto auto 1px auto auto;
-    position: relative;
-    left: 70px;
-    width: 80%;
- }
-
- #forth-layer-blog-one{
+#forth-layer-blog-extra {
   grid-column: 1 / -1;
-  background-color: green;
-
+  background-color: brown;
+  padding: 0px;
  }
 
- #forth-layer-blog-eight{
+#editor-pics {
+  background-color: yellow;
+  margin: 0px;
+}
+
+#forth-layer-blog-one{
   grid-column: 1 / -1;
-  background-color: rgb(0, 0, 0);;
- }
+}
 
- #third-layer-aside-right{
-   background-color: yellow;
-   position: relative;
-   right: 100px;
- }
-
- #fifth-layer-middle-div{
-    grid-column: 1 / -1;
-    background-color: green;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(2, auto);
-    width: 80%;
-    position: relative;
-    left: 80px;
- }
-
- #fifth-layer-middle-blog-one {
+#forth-layer-blog-eight{
   grid-column: 1 / -1;
- }
+  background-color: rgb(0, 0, 0);
+}
 
- .iframe-video{
+#third-layer-aside-right{
+ position: relative;
+ right: 100px;
+}
+
+#fifth-layer-middle-div{
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, auto);
+  width: 95%;
+  position: relative;
+  left: 28px;
+  border-top: 4px double rgb(226, 226, 226);
+}
+
+#fifth-layer-middle-blog-one {
+  grid-column: 1 / -1;
+}
+
+.iframe-video{
   display: inline-block;
- }
+}
 
 #third-layer-button{
   display: inline-block;
@@ -304,23 +307,18 @@ nav div button {
   float: right;
 }
 
- footer {
-  background-color: brown;
-  padding: 10px;
- }
-
- .css-y8aj3r {
-    padding: 0;
-    list-style: none;
-    float: right
+.css-y8aj3r {
+  padding: 0;
+  list-style: none;
+  float: right
 }
 
 .css-ar1l6a {
-    color: #999;
-    display: inline;
-    margin-right: 16px;
-    padding: 10px 0;
-    width: 100%;
+  color: #999;
+  display: inline;
+  margin-right: 16px;
+  padding: 10px 0;
+  width: 100%;
 
 }
 
@@ -334,21 +332,93 @@ nav div button {
   list-style: none;
 }
 .css-18cmw3s {
-    border-bottom: 1px solid rgb(226, 226, 226);
-    padding: 15px 0px;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  padding: 15px 0px;
 }
-table figure{
-  width: 170pt;
-  height: 151pt;
-}
-table figure img{
-  width: 215pt;
-  height: 130px;
-}
-table {
-  z-index: 5;
-  border-collapse: collapse;
-}
-table th, td{
 
+.above-nav-list {
+  list-style: none;
+  float: left;
+  text-align: left;
+  font-size: 11px;
+  margin-top: -20px;
+}
+.above-nav-list li {
+  padding: 5px;
+}
+
+#last-right-div{
+  border-left: 1px solid rgb(226, 226, 226);
+}
+
+#fifth-layer-middle-div h5 {
+  text-align: left;
+  position: relative;
+  left: 5px;
+}
+
+#second-logo {
+  float: left;
+  width: 15%;
+}
+
+.fifth-layer-list{
+  position: relative;
+  bottom: 20px;
+}
+
+.special-last-rigth-list{
+  font-weight: bolder;
+  font-size: 1.5em;
+ 
+}
+
+.css-r5ic95 {
+  padding-right: 10px;
+  width: 12px;
+}
+
+footer {
+  width: 95%;
+  border-top: 1px solid rgb(226, 226, 226) ;
+  margin-left: 35px;
+  text-align: center;
+  padding: 0;
+ }
+
+ #footer-div{
+  width: 1000px;
+  height: 30px;
+  display: inline-block;
+   padding: 0px;
+ }
+
+ #footer-div ul{
+  list-style: none;
+  position: relative;
+  bottom: 10px;
+ }
+
+#footer-div ul li {
+  display: inline-block;
+  padding-right: 15px;
+  font-size: 11px;
+  color: rgb(153, 153, 153);
+  font-weight: lighter;
+}
+
+#forth-layer-blog-one h5{
+  text-align: left;
+  margin: 0;
+  position: relative;
+  top: 10px;
+}
+
+.imageBlock {
+  width: 100%;
+}
+
+.date {
+  font-size: 0.5em;
+  font-weight: lighter;
 }
